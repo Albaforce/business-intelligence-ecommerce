@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Albaforce/business-intelligence-        ecommerce.git
+   git clone https://github.com/Albaforce/business-intelligence-ecommerce.git
    cd business-intelligence-ecommerce
    ```
 
@@ -116,11 +116,6 @@ The data directory includes:
 1. Fork the repository and create a new branch for your feature or bug fix.
 2. Follow proper coding standards and comment your code.
 3. Submit a pull request with detailed explanations.
-
----
-
-## License
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
