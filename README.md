@@ -5,45 +5,50 @@ The **Business Intelligence E-Commerce Project** is designed to process, analyze
 
 ---
 
-## Project Structure
 ```
 business-intelligence-ecommerce
-├── data
-│   ├── processed
-│   │   ├── cleaned_events_chunks
-│   │   │   ├── cleaned_events_chunk_1.csv
-│   │   │   ├── cleaned_events_chunk_2.csv
-│   │   │   ├── cleaned_events_chunk_3.csv
-│   │   │   └── cleaned_events_chunk_4.csv
-│   │   ├── cleaned_distribution_centers.csv
-│   │   ├── cleaned_events.csv
-│   │   ├── cleaned_inventory_items.csv
-│   │   ├── cleaned_order_items.csv
-│   │   ├── cleaned_orders.csv
-│   │   ├── cleaned_products.csv
-│   │   └── cleaned_users.csv
-│   └── raw
-│       ├── events_chunks
-│       │   ├── events_1.csv
-│       │   ├── events_2.csv
-│       │   ├── events_3.csv
-│       │   └── events_4.csv
-│       ├── distribution_centers.csv
-│       ├── inventory_items.csv
-│       ├── order_items.csv
-│       ├── orders.csv
-│       ├── products.csv
-│       └── users.csv
-├── src
-│   ├── analysis
-│   │   └── clustering.py
-│   ├── ETL
-│   │   ├── pipeline.ipynb
-│   │   └── visualisations.ipynb
-│   └── Warehouse
-│       └── schema.sql
-├── README.md
-└── requirements.txt
+├──data
+│   ├──processed
+│   │   ├──cleaned_events_chunks
+│   │   │   ├──cleaned_events_chunk_1.csv
+│   │   │   ├──cleaned_events_chunk_2.csv
+│   │   │   ├──cleaned_events_chunk_3.csv
+│   │   │   └──cleaned_events_chunk_4.csv
+│   │   ├──cleaned_distribution_centers.csv
+│   │   ├──cleaned_inventory_items.csv
+│   │   ├──cleaned_order_items.csv
+│   │   ├──cleaned_orders.csv
+│   │   ├──cleaned_products.csv
+│   │   └──cleaned_users.csv
+│   └──raw
+│   │   ├──events_chunks
+│   │   │   ├──events_1.csv
+│   │   │   ├──events_2.csv
+│   │   │   ├──events_3.csv
+│   │   │   └──events_4.csv
+│   │   ├──distribution_centers.csv
+│   │   ├──inventory_items.csv
+│   │   ├──order_items.csv
+│   │   ├──orders.csv
+│   │   ├──products.csv
+│   │   └──users.csv
+├──src
+│   ├──analysis
+│   │   ├──association.py
+│   │   ├──clustering.py
+│   │   ├──Elbow_Silhouette.png
+│   │   ├──kmeans.png
+│   │   └──user_data_with_clusters.csv
+│   ├──ETL
+│   │   ├──insights.ipynb
+│   │   ├──pipeline.ipynb
+│   │   ├──visualisation.pbix
+│   │   └──visualisations.ipynb
+│   └──Warehouse
+│   │   ├──schema.pdf
+│   │   └──schema.sql
+├──README.md
+└──requirements.txt
 ```
 
 ---
